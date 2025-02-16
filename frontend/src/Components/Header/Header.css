@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    justify-content: space-around;
+    top: 0vh;
+    background: linear-gradient(to bottom, #458cdc, #0053a0,#4ba8f4); 
+    padding: 1%;
+}
+
+.house{
+    width: 25%;
+    border-radius: 5%;
+}
+
+.management{
+    position: relative;
+    width: 55%;
+    border-radius: 5%;
+    right: 70%;
+}
+
+.house:hover{
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2);
+}
+
+.management:hover{
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2);
+}

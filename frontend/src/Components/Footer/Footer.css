@@ -1,0 +1,40 @@
+.footer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 0%;
+    background: linear-gradient(to bottom, #304d6800, #355875, 18%, #4ba8f4, 55%, #458cdc, #0053a0); 
+    width: 100%;
+    height: 12vh;
+}
+
+.footer h2{
+    margin-left: 3%;
+    margin-top: 2.5%;
+}
+
+.img-footer{
+    position: relative;
+    width: 20%;
+    margin-left: 20%;
+    margin-right: 2%;
+    border-radius: 25%;
+    top: 10%;
+}
+
+.img-footer:hover{
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2);
+}
+
+.ankle-footer{
+    position: relative;
+    top: 12%;
+    width: 5%;
+}
+
+.ankles{
+    width: 20%;
+}

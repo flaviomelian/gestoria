@@ -1,0 +1,35 @@
+.management-page{
+    text-align: 'center';
+    padding: '20px';
+    background: linear-gradient(to bottom,#4ba8f4, #294259); 
+    height: 70vh;
+    padding: 3%;
+    top: 0vh;
+    justify-content: center;
+}
+
+.button{
+    border-radius: 10% / 50%;
+    border: 4px solid #2997f2;
+    background: #024984;
+    color: #0091ff;
+    width: 25%;
+    margin-top: 10%;
+    margin-left: 1%;
+    padding: 1%;
+    height: 5vh;
+}
+
+.operations{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    position: relative;
+    left: 42.5%;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: ease-in-out 0.2s;
+}
