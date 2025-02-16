@@ -6,6 +6,7 @@
     top: 0vh;
     background: linear-gradient(to bottom, #458cdc, #0053a0,#4ba8f4); 
     padding: 1%;
+    z-index: 10000;
 }
 
 .house{

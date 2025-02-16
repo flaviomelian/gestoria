@@ -1,0 +1,95 @@
+.entity{
+    flex-wrap: wrap;
+    background-color: #0b565f;
+    padding: 3%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.entity-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 5vh;
+}
+
+.create-field{
+    position: relative;
+    bottom: 5.5vh;
+}
+
+.remove-field{
+    border: 2px solid rgb(234, 76, 76);
+    background-color: #630303;
+    color: rgb(197, 45, 45);
+    position: relative;
+    bottom: 5vh;
+}
+
+.fields{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.value-field{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    height: 5vh;
+}
+
+.input-value-field{
+    padding: 0.3%;
+    border-radius: 10% / 50%;
+    background-color: #294259;
+    margin-top: 1%;
+}
+
+.relations{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.relations div{
+    display: flex;
+    flex-direction: column;
+}
+
+.relation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.value-field div{
+    display: flex;
+    flex-direction: row;
+}
+
+.remove-entity{
+    width: 70%;
+    border: 2px solid rgb(234, 76, 76);
+    background-color: #630303;
+    color: rgb(197, 45, 45);
+    position: relative;
+    bottom: 5vh;
+    left: 15%;
+    font-size: 20px;
+    border-radius: 5% / 50%;
+}
+
+.remove-entity:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: ease-in-out 0.2s;
+}
